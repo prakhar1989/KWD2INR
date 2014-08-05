@@ -21,6 +21,7 @@
           dataType: 'jsonp',
         }).done(function (results) {
 
+					var latest = results[0]["INR"];
           var data = new google.visualization.DataTable();
 
           data.addColumn('datetime', 'Time');
@@ -36,7 +37,7 @@
           var chart = new google.visualization.LineChart($('#chart').get(0));
 
           chart.draw(data, {
-            title: 'Al-Mulla Exchange Rates (INR)'
+            title: 'Al-Mulla Exchange Rates (INR). Last update: Rs.' +  latest
           });
 
         });
@@ -56,5 +57,6 @@
   </head>
   <body>
     <div id="chart" style="width: 100%;"></div>
+		<a href="https://data.sparkfun.com/streams/0llnrLvRyOFYXyv3yDD6">source</a>
   </body>
 </html>
