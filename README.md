@@ -1,4 +1,4 @@
-KWD -> INR
+KWD &rarr; INR
 ===
 
 ![Image](shot.png)
