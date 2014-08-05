@@ -1,0 +1,14 @@
+{
+  "name": "amxremit",
+  "version": "0.0.0",
+  "description": "KWD -> INR",
+  "main": "getrate.sh",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Prakhar Srivastav",
+  "devDependencies": {
+    "nodemailer": "*",
+  },
+  "license": "DWTFYW"
+}
