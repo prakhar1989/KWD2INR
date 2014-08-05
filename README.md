@@ -1,4 +1,4 @@
-Currency Crawler
+KWD -> INR
 ===
 
 ![Image](shot.png)
