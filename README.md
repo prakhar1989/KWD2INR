@@ -12,7 +12,8 @@ Uses [sparkfun](https://data.sparkfun.com/) as a data store and google charts ap
 See it [live](http://kwdtoinr.neocities.org)
 
 ### Run
-```
+```shell
 $ chmod +x getrate.sh
 $ ./getrate.sh
+$ ./sendmail.js
 ```

@@ -1,1 +1,1 @@
-/usr/bin/casperjs /home/prakhars/amxremit/amx_crawl.js > /home/prakhars/amxremit/rates.txt
+/usr/bin/casperjs amx_remit.js > rates.txt
